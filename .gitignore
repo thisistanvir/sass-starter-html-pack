@@ -1,2 +1,14 @@
+# OS-specific files
 .DS_Store
-.vscode
+Thumbs.db
+
+# IDE/Editor files
+# .vscode/
+.idea/
+
+# Dependencies
+node_modules/
+
+# Generated files
+*.log
+*.tmp

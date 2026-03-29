@@ -6,14 +6,14 @@ $font-family: (
 	ff: (
 		body: "'Jost', sans-serif",
 		heading: "'Old Standard TT', serif",
-		fontawesome: '"Font Awesome 6 Pro"',
+		icons: "'ts-icon'",
 	),
 );
 
 // Font Weight
 $font-scale: (
 	fw: (
-		normal: normal,
+		normal: 400,
 		thin: 100,
 		elight: 200,
 		light: 300,
@@ -31,10 +31,10 @@ $font-size: (
 	fs: (
 		body: 16px,
 		h1: 40px,
-		h2: 36px,
-		h3: 24px,
-		h4: 20px,
-		h5: 16px,
-		h6: 14px,
+		h2: 32px,
+		h3: 28px,
+		h4: 24px,
+		h5: 20px,
+		h6: 16px,
 	),
 );

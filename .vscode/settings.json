@@ -1,0 +1,30 @@
+{
+	"editor.fontSize": 16,
+	"editor.tabSize": 2,
+	"editor.wordWrap": "on",
+	"prettier.printWidth": 120,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"prettier.arrowParens": "avoid",
+	"prettier.useTabs": true,
+	"prettier.trailingComma": "es5",
+	"prettier.bracketSpacing": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"liveSassCompile.settings.compileOnWatch": true,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "~/../css/"
+		}
+	],
+	"liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**", "**/temp-folder/**"],
+	"liveSassCompile.settings.generateMap": true,
+	"liveSassCompile.settings.autoprefix": ["> 5%", "last 4 versions"]
+}
