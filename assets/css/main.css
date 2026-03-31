@@ -455,6 +455,83 @@ textarea::-ms-clear {
   width: 0;
   height: 0;
 }
+select,
+.nice-select,
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+input[type=number],
+input[type=date],
+input[type=datetime-local],
+input[type=month],
+input[type=week],
+input[type=time],
+textarea {
+  /* Change the white to any color */
+}
+select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus, select:-webkit-autofill:active,
+.nice-select:-webkit-autofill,
+.nice-select:-webkit-autofill:hover,
+.nice-select:-webkit-autofill:focus,
+.nice-select:-webkit-autofill:active,
+input[type=search]:-webkit-autofill,
+input[type=search]:-webkit-autofill:hover,
+input[type=search]:-webkit-autofill:focus,
+input[type=search]:-webkit-autofill:active,
+input[type=tel]:-webkit-autofill,
+input[type=tel]:-webkit-autofill:hover,
+input[type=tel]:-webkit-autofill:focus,
+input[type=tel]:-webkit-autofill:active,
+input[type=text]:-webkit-autofill,
+input[type=text]:-webkit-autofill:hover,
+input[type=text]:-webkit-autofill:focus,
+input[type=text]:-webkit-autofill:active,
+input[type=email]:-webkit-autofill,
+input[type=email]:-webkit-autofill:hover,
+input[type=email]:-webkit-autofill:focus,
+input[type=email]:-webkit-autofill:active,
+input[type=url]:-webkit-autofill,
+input[type=url]:-webkit-autofill:hover,
+input[type=url]:-webkit-autofill:focus,
+input[type=url]:-webkit-autofill:active,
+input[type=password]:-webkit-autofill,
+input[type=password]:-webkit-autofill:hover,
+input[type=password]:-webkit-autofill:focus,
+input[type=password]:-webkit-autofill:active,
+input[type=number]:-webkit-autofill,
+input[type=number]:-webkit-autofill:hover,
+input[type=number]:-webkit-autofill:focus,
+input[type=number]:-webkit-autofill:active,
+input[type=date]:-webkit-autofill,
+input[type=date]:-webkit-autofill:hover,
+input[type=date]:-webkit-autofill:focus,
+input[type=date]:-webkit-autofill:active,
+input[type=datetime-local]:-webkit-autofill,
+input[type=datetime-local]:-webkit-autofill:hover,
+input[type=datetime-local]:-webkit-autofill:focus,
+input[type=datetime-local]:-webkit-autofill:active,
+input[type=month]:-webkit-autofill,
+input[type=month]:-webkit-autofill:hover,
+input[type=month]:-webkit-autofill:focus,
+input[type=month]:-webkit-autofill:active,
+input[type=week]:-webkit-autofill,
+input[type=week]:-webkit-autofill:hover,
+input[type=week]:-webkit-autofill:focus,
+input[type=week]:-webkit-autofill:active,
+input[type=time]:-webkit-autofill,
+input[type=time]:-webkit-autofill:hover,
+input[type=time]:-webkit-autofill:focus,
+input[type=time]:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px var(--ts-color-theme-bg-secondary) inset !important;
+  -webkit-text-fill-color: var(--ts-color-heading-primary);
+}
 
 textarea {
   min-height: 130px;
@@ -462,12 +539,6 @@ textarea {
 
 .ts-select {
   float: unset;
-}
-
-:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0px 1000px var(--ts-color-common-white) inset;
-          box-shadow: 0 0 0px 1000px var(--ts-color-common-white) inset;
-  -webkit-text-fill-color: var(--ts-color-text-body);
 }
 
 /**

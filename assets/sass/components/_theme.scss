@@ -270,16 +270,21 @@ textarea {
 		width: 0;
 		height: 0;
 	}
+
+	/* Change the white to any color */
+	&:-webkit-autofill,
+	&:-webkit-autofill:hover,
+	&:-webkit-autofill:focus,
+	&:-webkit-autofill:active {
+		-webkit-box-shadow: 0 0 0 30px var(--ts-color-theme-bg-secondary) inset !important;
+		-webkit-text-fill-color: var(--ts-color-heading-primary);
+	}
 }
 textarea {
 	min-height: 130px;
 }
 .ts-select {
 	float: unset;
-}
-:-webkit-autofill {
-	box-shadow: 0 0 0px 1000px var(--ts-color-common-white) inset;
-	-webkit-text-fill-color: var(--ts-color-text-body);
 }
 
 /**
