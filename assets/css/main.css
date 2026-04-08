@@ -102,7 +102,7 @@ body {
 }
 
 svg {
-  max-width: 1rem;
+  width: 1rem;
   height: auto;
 }
 
@@ -247,8 +247,7 @@ ol {
 }
 
 a,
-button,
-.btn {
+button {
   background: transparent;
   border: none;
   color: var(--ts-color-theme-primary);
@@ -261,19 +260,14 @@ button,
 }
 a:hover, a:focus,
 button:hover,
-button:focus,
-.btn:hover,
-.btn:focus {
+button:focus {
   text-decoration: none;
   color: var(--ts-color-theme-primary);
 }
 a:focus, a:focus-visible, a:focus-within,
 button:focus,
 button:focus-visible,
-button:focus-within,
-.btn:focus,
-.btn:focus-visible,
-.btn:focus-within {
+button:focus-within {
   text-decoration: none;
   outline: none;
   -webkit-box-shadow: 0 0 0;
@@ -537,8 +531,23 @@ textarea {
   min-height: 130px;
 }
 
-.ts-select {
+.ts-select.nice-select {
   float: unset;
+  line-height: inherit;
+}
+.ts-select.nice-select.open, .ts-select.nice-select:hover {
+  border-color: var(--ts-color-theme-primary);
+}
+.ts-select.nice-select .list {
+  -webkit-box-shadow: 0 0 0;
+          box-shadow: 0 0 0;
+  border: 1px solid var(--ts-color-border-1);
+  background-color: var(--ts-color-theme-bg-primary);
+  width: 100%;
+}
+.ts-select.nice-select .option.focus,
+.ts-select.nice-select .option .selected.focus, .ts-select.nice-select .option:hover {
+  background-color: var(--ts-color-theme-primary);
 }
 
 /**
